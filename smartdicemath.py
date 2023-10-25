@@ -2,7 +2,7 @@ import random
 from itertools import product
 from decimal import Decimal, getcontext 
 getcontext().prec = 40 # This only comes up when converting our large numbers
-# more useful smaller numbers to avoid loss of accuracy.
+# to more useful, smaller numbers, to avoid loss of accuracy.
 
 def roll(dice):
     for _ in range(quantity): # For as many times as we wanna roll dice
